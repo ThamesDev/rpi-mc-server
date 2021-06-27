@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $HOME
 mkdir MinecraftServer
 cd MinecraftServer/
