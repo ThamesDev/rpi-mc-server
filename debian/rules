@@ -1,0 +1,6 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+override_dh_auto_install:
+	install -D -m 0755 install-server $$(pwd)/debian/rpi-mc-server/usr/bin/install-server
+	install -D -m 0755 start-server $$(pwd)/debian/rpi-mc-server/usr/bin/start-server	
