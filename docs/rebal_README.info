@@ -1,0 +1,21 @@
+Here is a prototypical version of what the website's files might look like - take a look around and rearrange at your discretion!
+I have added an asset which I thought might be fun for the 404 page.
+Here is my idea for the content of the pages - lucky for us, GitHub gives us "themes" so we don't have to worry about inline formatting or css!
+
+about.html: a general description of what the package does (i.e takes a stock raspberry pi running raspbian and sets it up for use as a minecraft server.
+
+installation.html: prerequisites and installation guide, which means:
+	- Probably a warning that you install the software at your own risk, and that it hasn't been extensively tested so bugs may exist.
+	- In the settings brought up by the command sudo raspi-config, enable
+		* Interface settings > SSH > on if they are working on Raspbian lite, as it is easier to ssh in from a computer (maybe include a link to an ssh tutorial?)
+		* Advanced settings > Expand filesystem
+	- Download/`wget` the package depending on whether they are on raspbian or raspbian lite (when showing the command, use a code block because the command may include a long url and shouldn't wrap)
+	- Use `dpkg -i [name of the package]` to install it
+
+usage.html: usage of the commands, as follows:
+	- Use install-server once to install the server. (Make a note that the `MinecraftServer/` directory within which `server.jar` is stored will be in the user's `~` directory)
+	- Use start-server every time they want to start the server.
+
+404.html: self explanatory. I found a fun picture for it, it's in the subdirectory `assets/images/tux.png`
+
+Delete this file, as well as any other scaffolding files (which all end with info) after you're done!
