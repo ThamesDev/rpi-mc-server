@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+## What this package is for
+
+We spent ages trying to work out how to get a Minecraft Server up and running on a Raspberry Pi, battled lots of dependency errors, and
+made this script to ensure others don't need to go through the trouble.
+
+Please find out more about installation [here]({% link installation.md %}).

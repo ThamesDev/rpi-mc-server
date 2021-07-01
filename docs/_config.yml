@@ -1,1 +1,7 @@
+# site settings
+title: Raspberry Pi Minecraft Server
+description: >-
+    Use your Raspberry Pi as a Minecraft Server.
+
+# build settings
 theme: jekyll-theme-cayman
