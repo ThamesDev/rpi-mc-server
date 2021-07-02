@@ -11,8 +11,6 @@ layout: default
 
 We've tried to make it as easy as possible to install, although the process differs slightly depending on which build of Raspbian you are on.
 
-## Raspbian (**not** Raspbian Lite)
-
 **If you are on Raspbian Lite, ensure SSH is turned on, there is an official tutorial <a href="https://www.raspberrypi.org/documentation/remote-access/ssh/" target="_blank">here</a>. This is not mandatory but it is often easier to SSH into a headless device.**
 
 Show the Raspbian settings with
@@ -24,12 +22,12 @@ Ensure 'Expand filesystem' is turned on, via 'Advanced settings > Expand filesys
 Execute the following command to download the package:
 
 ```
-wget --no-check-certificate --content-disposition <url>
+wget --no-check-certificate --content-disposition https://github.com/ThamesDev/rpi-mc-server_1.0-1_arm32/releases/download/1.0.0/rpi-mc-server_1.0.0_armhf.deb
 ```
 
 Use the following command to install the package:
 
-> `dpkg -i [name of package]`
+> `dpkg -i rpi-mc-server_1.0.0_armhf.deb`
 
 ---
 
