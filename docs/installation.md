@@ -35,4 +35,4 @@ Use the following command to install the package:
 
 ## Usage
 
-Please find usage instructions [here]({% link usage.md %}).
+Please find usage instructions [here](https://thamesdev.github.io/rpi-mc-server_1.0-1_arm32/usage.html).
