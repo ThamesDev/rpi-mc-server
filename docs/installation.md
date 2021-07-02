@@ -27,7 +27,7 @@ wget --no-check-certificate --content-disposition https://github.com/ThamesDev/r
 
 Use the following command to install the package:
 
-> `dpkg -i rpi-mc-server_1.0.0_armhf.deb`
+> `sudo dpkg -i rpi-mc-server_1.0.0_armhf.deb`
 
 ---
 
