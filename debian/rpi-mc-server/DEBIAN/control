@@ -1,0 +1,10 @@
+Package: rpi-mc-server
+Version: 1.0.0
+Architecture: armhf
+Maintainer: Freddie Jemison <freddie@jemison.co.uk>
+Installed-Size: 30
+Depends: libc6 (>= 2.7)
+Section: utils
+Priority: optional
+Description: A Minecraft server installer for rpi
+ Installs the latest version of Minecraft server, and the JRE necessary to run it, on a stock raspberry pi with raspbian installed.
