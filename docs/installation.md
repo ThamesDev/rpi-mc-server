@@ -19,18 +19,15 @@ Show the Raspbian settings with
 
 Ensure 'Expand filesystem' is turned on, via 'Advanced settings > Expand filesystem'.
 
-Execute the following command to download the package:
+Execute the following commands to download and extractthe package:
 
 ```
-wget --no-check-certificate --content-disposition https://github.com/ThamesDev/rpi-mc-server_1.0-1_arm32/releases/download/1.0.0/rpi-mc-server_1.0.0_armhf.deb
+wget --no-check-certificate --content-disposition https://github.com/ThamesDev/rpi-mc-server/releases/download/1.1.0/rpi-mc-server.tar.gz
+tar -xvzf rpi-mc-server.tar.gz
 ```
-
-Use the following command to install the package:
-
-> `sudo dpkg -i rpi-mc-server_1.0.0_armhf.deb`
 
 ---
 
 ## Usage
 
-Please find usage instructions [here](https://thamesdev.github.io/rpi-mc-server_1.0-1_arm32/usage.html).
+Please find usage instructions [here](https://thamesdev.github.io/rpi-mc-server/usage.html).
