@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo mv start-server /usr/bin/start-server
 cd $HOME
 mkdir MinecraftServer
 cd MinecraftServer/
