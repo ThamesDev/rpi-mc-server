@@ -7,16 +7,20 @@ layout: default
 ## Commands
 
 1. First, run the `install-server` command from within the `rpi-mc-server/` directory like so:
+
 ```
 $ sudo ./install-server
 ```
+
 2. This will install all of the necessary software for the server into a `MinecraftServer/` directory, stored in the user's home directory.
 
 3. The `rpi-mc-server/` folder can now be safely deleted.
 
 4. The `start-server` command can be run from anywhere on your system, not just the MinecraftServer directory. Run it like so:
 
-    $ start-server [MB of memory]
+```
+$ start-server [MB of memory]
+```
 
 Where [MB of memory] is the amount of memory you wish to assign. We recommend 1024 for a Pi 3, and 2500 for a Pi 4, but feel free to play around.
 
