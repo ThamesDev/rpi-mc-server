@@ -7,9 +7,9 @@ layout: default
 ## Commands
 
 1. First, run the `install-server` command from within the `rpi-mc-server/` directory like so:
-
-    $ sudo ./install-server
-
+```
+$ sudo ./install-server
+```
 2. This will install all of the necessary software for the server into a `MinecraftServer/` directory, stored in the user's home directory.
 
 3. The `rpi-mc-server/` folder can now be safely deleted.
